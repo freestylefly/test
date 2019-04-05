@@ -1,202 +1,439 @@
-<h1 align="center">Java 学习/面试指南</h1>
+<h1 align="center">Java 菜鸟 = > 大神</h1>
 <p align="center">
-<a href="https://github.com/Snailclimb/JavaGuide" target="_blank">
-	<img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-3/logo - 副本.png" width=""/>
-</a>
-</p>
-<h2 align="center">Special Sponsors</h2>
-<p align="center">
-<a href="https://e.coding.net/?utm_source=JavaGuide" target="_blank">
-  <img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-3/Coding Devops.png" width=""/>
- </a>
+<img src="https://s2.ax1x.com/2019/03/31/AD5Eng.jpg" width=""/>
 </p>
 
+<p align="center">
+  <a href="https://github.com/freestylefly/javaStudy"><img src="https://img.shields.io/badge/%E9%98%85%E8%AF%BB-read-blue.svg" alt="阅读"></a>
+  <a href="#联系我"><img src="https://img.shields.io/badge/%E8%81%94%E7%B3%BB%E6%88%91-callme-orange.svg" alt="微信"></a>
+  <a href="#公众号"><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-JavaGuide-lightgrey.svg" alt="公众号"></a>
+  <a href="https://github.com/freestylefly/javaStudy/issues"><img src="https://img.shields.io/badge/%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88-Issurs-brightgreen.svg" alt="公众号"></a>
+  <a href="#投稿"><img src="https://img.shields.io/badge/support-投稿-critical.svg" alt="投稿"></a>
+<h2 align="center">The more effort，the more lucky</h2>
+</p>
 
-## Java
+<p><h1 align="center">我的CSDN博客</h1></p>
 
-### 基础
+<p align="center">
+<img src="https://s2.ax1x.com/2019/03/31/AD5lcT.png" width=""/>
+</p>
 
-* [Java 基础知识回顾](./java/Java基础知识.md)
-* [J2EE 基础知识回顾](./java/J2EE基础知识.md)
-* [Collections 工具类和 Arrays 工具类常见方法](./java/Basis/Arrays%2CCollectionsCommonMethods.md)
-* [Java常见关键字总结：static、final、this、super](./java/Basis/final、static、this、super.md) 
 
-### 容器
+### 先简单自我介绍：
 
-* **常见问题总结：**
-  * [这几道Java集合框架面试题几乎必问](./java/这几道Java集合框架面试题几乎必问.md)
-  * [Java 集合框架常见面试题总结](./java/Java集合框架常见面试题总结.md)
-* **源码分析：**
-  * [ArrayList 源码学习](./java/ArrayList.md) 
-  * [【面试必备】透过源码角度一步一步带你分析 ArrayList 扩容机制](./java/ArrayList-Grow.md)    
-  * [LinkedList 源码学习](./java/LinkedList.md)   
-  * [HashMap(JDK1.8)源码学习](./java/HashMap.md)  
+一个土木普通一本毕业的菜鸟，去过工地、见过大山，发现人生无趣，于是学起了编程，现在也算成功转行，很多朋友问我相关经验，我想此仓库的目的就在于此，一个人的能力有限，希望大家多多帮助。
 
-### 并发
+### 项目简介
 
-* [并发编程面试必备：synchronized 关键字使用、底层原理、JDK1.6 之后的底层优化以及 和ReenTrantLock 的对比](./java/synchronized.md)
-* [并发编程面试必备：乐观锁与悲观锁](./essential-content-for-interview/面试必备之乐观锁与悲观锁.md)
-* [并发编程面试必备：JUC 中的 Atomic 原子类总结](./java/Multithread/Atomic.md)
-* [并发编程面试必备：AQS 原理以及 AQS 同步组件总结](./java/Multithread/AQS.md)
-* [BATJ都爱问的多线程面试题](./java/Multithread/BATJ都爱问的多线程面试题.md)
-* [并发容器总结](./java/Multithread/并发容器总结.md)
+完全以一个初学者外行人的阶段学习，按照我目录的顺序学习是比较好的，项目中有很多的资源，很多都是自己的学习笔记
 
-### JVM
+目录
+=================
 
-* [可能是把Java内存区域讲的最清楚的一篇文章](./java/可能是把Java内存区域讲的最清楚的一篇文章.md)
-* [搞定JVM垃圾回收就是这么简单](./java/搞定JVM垃圾回收就是这么简单.md)
-* [《深入理解Java虚拟机》第2版学习笔记](./java/Java虚拟机（jvm）.md)
+   * [一、Java语言核心](#Java语言核心)
+      * [1、Java核心语法](#Java核心语法)
+      * [2、java高级API](#java高级API)
+      * [3、java数据结构](#java数据结构)
+   * [二、Java与数据库交互技术](#Java与数据库交互技术)
+      * [1、MySQL数据库](#MySQL数据库)
+      * [2、Oracle数据库](#Oracle数据库)
+   * [三、JavaWeb前后端交互技术基础](#JavaWeb前后端交互技术基础)
+      * [1、HTML基础与CSS](#HTML基础与CSS)
+      * [2、JavaScript与jQuery](#JavaScript与jQuery)
+      * [3、Cookie和Session](#Cookie和Session)
+      * [4、Http协议和Tomcate服务器](#Http协议和Tomcate服务器)
+      * [5、javaweb核心之Servlet](#javaweb核心之Servlet)
+      * [6、JSP](#JSP)
+      * [7、request和response](#request和response)
+      * [8、过滤器和监听器](#过滤器和监听器)
+      * [9、easyUI](#easyUI)
+      * [10、UEditor](#UEditor)
+      * [11、ajax](#ajax)
+   * [四、常用工具和环境](#常用工具和环境)
+      * [1、eclipse](#eclipse)
+      * [2、Git&amp;GitHub](#Git和GitHub)
+      * [3、IDEA](#IDEA)
+      * [4、Linux](#Linux)
+      * [5、SVN](#SVN)
+      * [6、Maven](#Maven)
+      * [7、Redis](#Redis)
+      * [8、高并发编程工具JUC](#高并发编程工具JUC)
+      * [9、命令解析器Shell](#命令解析器Shell)
+   * [五、JavaEE框架](#JavaEE框架)
+      * [1、hibernate](#hibernate)
+      * [2、Mybatis](#Mybatis)
+      * [3、Spring](#Spring)
+      * [4、SpringMVC](#SpringMVC)
+      * [5、Struts2](#Struts2)
+      * [6、SpringBoot](#SpringBoot)
+      * [7、SpringCloud微服务](#SpringCloud微服务)
+      * [8、Web安全框架SpringSecurity](#Web安全框架SpringSecurity)
+      * [9、分布式Session给管理SpringSession](#分布式Session给管理SpringSession)
+   * [六、JavaEE高级课程](#JavaEE高级课程)
+      * [1、远程调用技术WebService](#远程调用技术WebService)
+      * [2、Mycat实现Mysql的分布式、分库分表、读写分离](#Mycat实现Mysql的分布式、分库分表、读写分离)
+      * [3、Nginx反向代理、负载均衡、动静分离](#Nginx反向代理、负载均衡、动静分离)
+      * [4、全文索引数据库Solr](#全文索引数据库Solr)
+      * [5、分布式构建框架Dubbo](#分布式构建框架Dubbo)
+      * [6、Tomcat性能优化](#Tomcat性能优化)
+      * [7、JVM内存模型、参数调优](#JVM内存模型、参数调优)
+      * [8、java开发包JUC](#java开发包JUC)
+   * [七、互联网架构新技术](#互联网架构新技术)
+      * [1、Zookeeper](#Zookeeper)
+      * [2、Elasticsearch](#Elasticsearch)
+      * [3、Logstash](#Logstash)
+      * [4、kibana](#kibana)
+      * [5、Kalka](#Kalka)
+      * [6、Docker](#Docker)
+      * [7、Hadoop](#Hadoop)
+      * [8、Hive](#Hive)
+      * [9、MapReduce](#MapReduce)
+      * [10、Node.js、vue.js](#Node.js、vue.js)
+      * [11、RabbitMQ](#RabbitMQ)
+      * [12、Canal](#Canal)
+      * [13、Swagger2](#Swagger2)
+      * [14、SpringSocial](#SpringSocial)
+   * [八、经验总结](#经验总结)
+   * [九、Java面试相关](#Java面试相关)
+   * [十、资料](#资料)
+   * [十一、闲谈](#闲谈)
+   * [十二、待办](#待办)
+   * [十三、说明](#说明)
+      * [1、介绍](#介绍)
+      * [2、关于转载](#关于转载)
+      * [3、如何对该开源文档进行贡献](#如何对该开源文档进行贡献)
+      * [4、为什么要做这个开源文档？](#为什么要做这个开源文档？)
+      * [5、联系我](#联系我)
+      * [6、公众号](#公众号)
+      * [7、CSDN博客](#CSDN博客)
 
-### I/O
+# Java语言核心
 
-* [BIO,NIO,AIO 总结 ](./java/BIO-NIO-AIO.md)
-* [Java IO 与 NIO系列文章](./java/Java%20IO与NIO.md)
+## Java核心语法
 
-### Java 8 
+## java高级API
 
-* [Java 8 新特性总结](./java/What's%20New%20in%20JDK8/Java8Tutorial.md)
-* [Java 8 学习资源推荐](./java/What's%20New%20in%20JDK8/Java8教程推荐.md)
+- [Java中的IO流和反射](Java语言核心/java核心API//Java中的IO流和反射.md)
 
-### 编程规范
+## java数据结构
 
-- [Java 编程规范](./java/Java编程规范.md)
+- [java数据结构](Java语言核心/java核心API//Java中的IO流和反射.md)
 
-## 网络
+# Java与数据库交互技术
 
-* [计算机网络常见面试题](./network/计算机网络.md)
-* [计算机网络基础知识总结](./network/干货：计算机网络知识总结.md)
-* [HTTPS中的TLS](./network/HTTPS中的TLS.md)
+## MySQL数据库
 
-## 操作系统
+- [MySQL数据库基础知识](Java与数据库交互技术\MySQL数据库\MySQL基础/MySQL数据库基础知识.md)
+- [c3p0连接池的用法](Java与数据库交互技术\MySQL数据库\JDBC操作数据库\c3p0连接池/c3p0连接池的用法.md)
+- [DBCP连接池和登录注册按例](Java与数据库交互技术\MySQL数据库\JDBC操作数据库\DBCP连接池和登录注册按例.md)
+- [DBUtils工具类操作数据库](Java与数据库交互技术\MySQL数据库\JDBC操作数据库\DBUtils/DBUtils工具类操作数据库.md)
+- [JDBC操作数据库](Java与数据库交互技术\MySQL数据库\JDBC操作数据库\JDBC操作数据库基础/JDBC操作数据库.md)
 
-### Linux相关
+## Oracle数据库
 
-* [后端程序员必备的 Linux 基础知识](./operating-system/后端程序员必备的Linux基础知识.md)  
-* [Shell 编程入门](./operating-system/Shell.md)  
+- [将oracle11安装到虚拟机并在本机进行远程操控oracle数据库（超详细步骤）](Java与数据库交互技术\Oracle数据库\Oracle的安装/将oracle11安装到虚拟机并在本机进行远程操控oracle数据库（超详细步骤）.md)
+- [云服务器安装oracle修改IP地址监听器报错问题](Java与数据库交互技术\Oracle数据库\Oracle的安装/云服务器安装oracle修改IP地址监听器报错问题.md)
+- [oracle知识点总结](Java与数据库交互技术\Oracle数据库\Oracle重点知识点/oracle知识点总结.md)
 
-## 数据结构与算法
+# JavaWeb前后端交互技术基础
 
-### 数据结构
+## HTML基础与CSS
 
-- [数据结构知识学习与面试](./dataStructures-algorithms/数据结构.md)
+- [HTML&CSS基础](JavaWeb前后端交互技术基础\HTML&CSS/HTML&CSS基础.md)
+- [webstorm上导入文件中文乱码问题解决](javaStudy\JavaWeb前后端交互技术基础\HTML&CSS/webstorm上导入文件中文乱码问题解决.md)
+- [webstorm设置黑色主题及相关的编码和显示设置](JavaWeb前后端交互技术基础\HTML&CSS/webstorm设置黑色主题及相关的编码和显示设置.md)
 
-### 算法
+## JavaScript与jQuery
 
-- [算法学习资源推荐](./dataStructures-algorithms/算法学习资源推荐.md)  
-- [算法总结——几道常见的子符串算法题 ](./dataStructures-algorithms/几道常见的子符串算法题.md)
-- [算法总结——几道常见的链表算法题 ](./dataStructures-algorithms/几道常见的链表算法题.md)   
-- [剑指offer部分编程题](./dataStructures-algorithms/剑指offer部分编程题.md)
-- [公司真题](./dataStructures-algorithms/公司真题.md)
-- [回溯算法经典案例之N皇后问题](./dataStructures-algorithms/Backtracking-NQueens.md)
+- [JavaScript基础知识](JavaWeb前后端交互技术基础\JavaScript/JavaScript基础知识.md)
+- [JS中的数据类型转换](JavaWeb前后端交互技术基础\JavaScript/JS中的数据类型转换.md)
+- [jQuery知识](JavaWeb前后端交互技术基础\jQuery/jQuery知识.md)
 
-## 数据库
+## Cookie和Session
 
-### MySQL
+- [Cookie&Session](JavaWeb前后端交互技术基础\Java web\知识点/Cookie&Session)
 
-* [MySQL 学习与面试](./database/MySQL.md)
-* [一千行MySQL学习笔记](./database/一千行MySQL命令.md)
-* [【思维导图-索引篇】搞定数据库索引就是这么简单](./database/MySQL%20Index.md)
-* [事务隔离级别(图文详解)](./database/事务隔离级别(图文详解).md)
-* [一条SQL语句在MySQL中如何执行的](./database/一条sql语句在mysql中如何执行的.md)
+## Http协议和Tomcate服务器
 
-### Redis
 
-* [Redis 总结](./database/Redis/Redis.md)
-* [Redlock分布式锁](./database/Redis/Redlock分布式锁.md)
-* [如何做可靠的分布式锁，Redlock真的可行么](./database/Redis/如何做可靠的分布式锁，Redlock真的可行么.md)
 
-## 系统设计
+## javaweb核心之Servlet
 
-### 设计模式
+- [在javaEE中外部的js文件如何和页面之间传递参数](JavaWeb前后端交互技术基础\Java web\知识点\javaweb核心之Servlet/在javaEE中外部的js文件如何和页面之间传递参数.md)
 
-- [设计模式系列文章](./system-design/设计模式.md)
+## JSP
 
-### 常用框架
+- [jsp](JavaWeb前后端交互技术基础\Java web\知识点\JSP)
 
-#### Spring
+## request和response
 
-- [Spring 学习与面试](./system-design/framework/Spring学习与面试.md)
-- [Spring中bean的作用域与生命周期](./system-design/framework/SpringBean.md)
-- [SpringMVC 工作原理详解](./system-design/framework/SpringMVC%20%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E8%AF%A6%E8%A7%A3.md)
+- [request](JavaWeb前后端交互技术基础\Java web\知识点\request)
+- [response](JavaWeb前后端交互技术基础\Java web\知识点\response)
 
-#### ZooKeeper
+## 过滤器和监听器
 
-- [可能是把 ZooKeeper 概念讲的最清楚的一篇文章](./system-design/framework/ZooKeeper.md)
-- [ZooKeeper 数据模型和常见命令了解一下，速度收藏！](./system-design/framework/ZooKeeper数据模型和常见命令.md)
+- [过滤器](JavaWeb前后端交互技术基础\Java web\知识点\滤器&监听器/过滤器.txt)
+- [监听器](JavaWeb前后端交互技术基础\Java web\知识点\滤器&监听器/监听器.txt)
 
-### 数据通信
+## easyUI
 
-- [数据通信(RESTful、RPC、消息队列)相关知识点总结](./system-design/data-communication/数据通信(RESTful、RPC、消息队列).md)
-- [Dubbo 总结：关于 Dubbo 的重要知识点](./system-design/data-communication/dubbo.md)
-- [消息队列总结：新手也能看懂，消息队列其实很简单](./system-design/data-communication/message-queue.md)
-- [一文搞懂 RabbitMQ 的重要概念以及安装](./system-design/data-communication/rabbitmq.md)
+- [jQuery+EasyUI开发指南](JavaWeb前后端交互技术基础\easyUI/jQuery+EasyUI开发指南.pdf)
 
-### 网站架构
+## UEditor
 
-- [一文读懂分布式应该学什么](./system-design/website-architecture/分布式.md)
-- [8 张图读懂大型网站技术架构](./system-design/website-architecture/8%20张图读懂大型网站技术架构.md)
-- [【面试精选】关于大型网站系统架构你不得不懂的10个问题](./system-design/website-architecture/【面试精选】关于大型网站系统架构你不得不懂的10个问题.md)
+- [UEditor](JavaWeb前后端交互技术基础\UEditor)
 
-## 面试指南
+## ajax
 
-### 备战面试
+- [Ajax常用用法.md](JavaWeb前后端交互技术基础\Ajax/Ajax常用用法.md)
 
-* [【备战面试1】程序员的简历就该这样写](./essential-content-for-interview/PreparingForInterview/程序员的简历之道.md)
-* [【备战面试2】初出茅庐的程序员该如何准备面试？](./essential-content-for-interview/PreparingForInterview/interviewPrepare.md)
-* [【备战面试3】7个大部分程序员在面试前很关心的问题](./essential-content-for-interview/PreparingForInterview/JavaProgrammerNeedKnow.md)
-* [【备战面试4】Github上开源的Java面试/学习相关的仓库推荐](./essential-content-for-interview/PreparingForInterview/JavaInterviewLibrary.md)
-* [【备战面试5】如果面试官问你“你有什么问题问我吗？”时，你该如何回答](./essential-content-for-interview/PreparingForInterview/如果面试官问你“你有什么问题问我吗？”时，你该如何回答.md)
-* [【备战面试6】美团面试常见问题总结（附详解答案）](./essential-content-for-interview/PreparingForInterview/美团面试常见问题总结.md)
+#  常用工具和环境
 
-### 常见面试题总结
+## eclipse
 
-* [第一周（2018-8-7）](./essential-content-for-interview/MostCommonJavaInterviewQuestions/第一周（2018-8-7）.md) (为什么 Java 中只有值传递、==与equals、 hashCode与equals)
-* [第二周（2018-8-13）](./essential-content-for-interview/MostCommonJavaInterviewQuestions/第二周(2018-8-13).md)(String和StringBuffer、StringBuilder的区别是什么？String为什么是不可变的？、什么是反射机制？反射机制的应用场景有哪些？......)
-* [第三周（2018-08-22）](./java/这几道Java集合框架面试题几乎必问.md) （Arraylist 与 LinkedList 异同、ArrayList 与 Vector 区别、HashMap的底层实现、HashMap 和 Hashtable 的区别、HashMap 的长度为什么是2的幂次方、HashSet 和 HashMap 区别、ConcurrentHashMap 和 Hashtable 的区别、ConcurrentHashMap线程安全的具体实现方式/底层具体实现、集合框架底层数据结构总结）
-* [第四周(2018-8-30).md](./essential-content-for-interview/MostCommonJavaInterviewQuestions/第四周(2018-8-30).md) （主要内容是几道面试常问的多线程基础题。）
+- [Eclipse配置Servlet模板.md](常用工具和环境\eclipse/Eclipse配置Servlet模板.md)
+- [Eclipse调用方法放回值快捷键.md](常用工具和环境\eclipse/Eclipse调用方法放回值快捷键.md)
+- [eclipse详解及eclipse快捷键.md](常用工具和环境\eclipse/eclipse详解及eclipse快捷键.md)
+- [eclipse中配置XML提示.md](常用工具和环境\eclipse/eclipse中配置XML提示.md)
+- [解决在Eclipse新建web项目没有自动生成web.xml和在新建servlet的时候自动生成web.xml配置.md](常用工具和环境\eclipse/解决在Eclipse新建web项目没有自动生成web.xml和在新建servlet的时候自动生成web.xml配置.md)
 
-### 面经
+## Git和GitHub
 
-- [5面阿里,终获offer(2018年秋招)](./essential-content-for-interview/BATJrealInterviewExperience/5面阿里,终获offer.md)
+- [分布式版本控制工具——Git.md](常用工具和环境\Git&GitHub/分布式版本控制工具——Git.md)
+- [关于GitHub的一些经验总结（包括README文件的编写目录的自动生成）.md](常用工具和环境\Git&GitHub/关于GitHub的一些经验总结（包括README文件的编写目录的自动生成）.md)
 
-## 工具
+## IDEA
 
-### Git
+- [尚硅谷_宋红康_IntelliJIDEA的安装、配置与使用.pdf](常用工具和环境\InteliJ IDEA/尚硅谷_宋红康_IntelliJIDEA的安装、配置与使用.pdf)
 
-* [Git入门](./tools/Git.md)
+## Linux
 
-### Docker
+- 
 
-* [Docker 入门](./tools/Docker.md)
-* [一文搞懂 Docker 镜像的常用操作！](./tools/Docker-Image.md)
+## SVN
 
-## 资料
+- [版本控制工具之SVN.md](常用工具和环境\SVN/版本控制工具之SVN.md)
 
-### 书单
+## Maven
 
-- [Java程序员必备书单](./data/java-recommended-books.md)
+- 
 
-### Github榜单
+## Redis
 
-- [Java 项目月榜单](./github-trending/JavaGithubTrending.md)
+- 
 
-***
+## 高并发编程工具JUC
 
-## 待办
+- 
 
-- [x] [Java 8 新特性总结](./java/What's%20New%20in%20JDK8/Java8Tutorial.md)
-- [x] [Java 8 新特性详解](./java/What's%20New%20in%20JDK8/Java8教程推荐.md)
-- [ ] Java 多线程类别知识重构(---正在进行中---)
-- [x] [BIO,NIO,AIO 总结 ](./java/BIO-NIO-AIO.md)
-- [ ] Netty 总结(---正在进行中---)
-- [ ] 数据结构总结重构(---正在进行中---)
+## 命令解析器Shell
+
+- 
+
+# JavaEE框架
+
+## hibernate
+
+- [eclipse中配置XML提示.md](JavaEE框架\hibernate/eclipse中配置XML提示.md)
+- [Hibernate之入门.md](JavaEE框架\hibernate/Hibernate之入门.md)
+- [Hibernate之进阶1——主键生成策略和事务管理.md](JavaEE框架\hibernate/Hibernate之进阶1——主键生成策略和事务管理.md)
+- [Hibernate之进阶2——表操作和多对多配置.md](JavaEE框架\hibernate/Hibernate之进阶2——表操作和多对多配置.md)
+- [Hibernate之进阶3——查询方式.md](JavaEE框架\hibernate/Hibernate之进阶3——查询方式.md)
+- [Hibernate之进阶4——抓取策略.md](JavaEE框架\hibernate/Hibernate之进阶4——抓取策略.md)
+
+## Mybatis
+
+- [MyBatis常见问题.md](JavaEE框架\Mybatis/MyBatis常见问题.md)
+
+## Spring
+
+- [01.Spring入门与常用配置.md](JavaEE框架\Spring/01.Spring入门与常用配置.md)
+- [02 .注解IOC&AOP.md](JavaEE框架\Spring/02 .注解IOC&AOP.md)
+
+## SpringMVC
+
+- 
+
+## Struts2
+
+- [01 struts2入门&常见配置.md](JavaEE框架\Struts2/01 struts2入门&常见配置.md)
+- [02 Servlet的API&封装.md](JavaEE框架\Struts2/02 Servlet的API&封装.md)
+- [03 Struts2中的OGNL和值栈ValueStack.md](JavaEE框架\Struts2/03 Struts2中的OGNL和值栈ValueStack.md)
+- [04 Struts2中的拦截器和标签库.md](JavaEE框架\Struts2/04 Struts2中的拦截器和标签库.md)
+
+## SpringBoot
+
+- 
+
+## SpringCloud微服务
+
+- 
+
+## Web安全框架SpringSecurity
+
+- 
+
+## 分布式Session给管理SpringSession
+
+- 
+
+# JavaEE高级课程
+
+## 远程调用技术WebService
+
+- 
+
+## Mycat实现Mysql的分布式、分库分表、读写分离
+
+- 
+
+## Nginx反向代理、负载均衡、动静分离
+
+- 
+
+## 全文索引数据库Solr
+
+- 
+
+## 分布式构建框架Dubbo
+
+- 
+
+## Tomcat性能优化
+
+- 
+
+## JVM内存模型、参数调优
+
+- 
+
+## java开发包JUC
+
+- 
+
+# 互联网架构新技术
+
+## Zookeeper
+
+- 
+
+## Elasticsearch
+
+- 
+
+## Logstash
+
+- 
+
+## kibana
+
+- 
+
+## Kalka
+
+- 
+
+## Docker
+
+- 
+
+## Hadoop
+
+- 
+
+## Hive
+
+- 
+
+## MapReduce
+
+- 
+
+## Node.js、vue.js
+
+- 
+
+## RabbitMQ
+
+- 
+
+## Canal
+
+- 
+
+## Swagger2
+
+- 
+
+## SpringSocial
+
+- 
+
+# 经验总结
+
+- [使用序列化保存对象信息的时候出现中文乱码问题.md](经验总结/使用序列化保存对象信息的时候出现中文乱码问题.md)
+
+# Java面试相关
+
+- [JavaSE基础面试题（精简版）.md](java面试相关/JavaSE基础面试题（精简版）.md)
+- [java基础面试题.md](java面试相关/java基础面试题.md)
+- [华为招聘Java程序员笔试试卷（一）.md](java面试相关/华为招聘Java程序员笔试试卷（一）.md)
+
+# 资料
+
+- 
+
+# 闲谈
+
+- [又是一年，我还是我](https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA==&mid=2247483799&idx=1&sn=0ee5a28e449dbff54b84b39069fc20d8&chksm=fd8fa188caf8289ec566b45c061970887a7a77bc98230c4fdde548f07a685c10c54178a43152&token=2015591107&lang=zh_CN#rd)
+- [念念不忘，必有反响！](https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA==&mid=2247483812&idx=1&sn=b6a93e14e6b0393ef71fe211595241b9&chksm=fd8fa1bbcaf828ad43515886201fcbb72d9c52bf6766bea21eaac6359c7d7ed70126a31eb6db&token=2015591107&lang=zh_CN#rd)
+- [我的2018/将oracle11安装到虚拟机并在本机进行远程操控oracle数据库](https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA==&mid=2247483794&idx=1&sn=6e3de4d312f7df711890e1bd1ed8a15c&chksm=fd8fa18dcaf8289b2ffb7abfc194db0ad9ab3b9a06b17877d6c8619bb1007c92de2d0b07d832&token=2015591107&lang=zh_CN#rd)
+
+# 待办
+
+- [ ] SpringBoot的学习
+
+# 说明
+
+## 介绍
+
+- 由于所有知识点均为作者学习并做了总结，**对于 Java 初学者来说：** 本文档倾向于给你提供一个比较详细的学习路径，让你对于Java整体的知识体系有一个初步认识；
+- 所有文档资料，花了一年多时间整理，希望不忘光阴不负卿，能帮到你一丝丝已足矣。
+
+Markdown 格式参考：[Github Markdown格式](https://guides.github.com/features/mastering-markdown/)，表情素材来自：[EMOJI CHEAT SHEET](https://www.webpagefx.com/tools/emoji-cheat-sheet/)。
+
+利用 docsify 生成文档部署在 Github pages: [docsify 官网介绍](https://docsify.js.org/#/)
+
+## 关于转载
+
+如果你需要转载本仓库的一些文章到自己的博客的话，记得注明原文地址就可以了。
+
+## 如何对该开源文档进行贡献
+
+1. 笔记内容大多是手敲，所以难免会有笔误，你可以帮我找错别字。
+2. 很多知识点我可能没有涉及到，所以你可以对其他知识点进行补充。
+3. 现有的知识点难免存在不完善或者错误，所以你可以对已有知识点的修改/补充。
+
+## 为什么要做这个开源文档？
+
+从小白一步步走来，我比你们更清楚自己的一个状态，跟着文档的步伐一步步学习，终有一日你也能成功，本文档主要适用初学者，对于有资深的大佬请您纠错。
+
+## 联系我
+
+<p align="center">
+<img src="http://pp8g2fyug.bkt.clouddn.com/weixin.jpg" width=""/>
+</p>
+
 
 ## 公众号
 
-- 如果大家想要实时关注我更新的文章以及分享的干货的话，可以关注我的公众号。
-- 由本文档衍生的专为面试而生的《Java面试突击》V2.0 PDF 版本公众号后台回复 **"Java面试突击"** 即可免费领取！
-- 一些Java工程师常用学习资源公众号后台回复关键字 **“1”** 即可免费无套路获取。 
-
 <p align="center">
-<img src="https://user-gold-cdn.xitu.io/2018/11/28/167598cd2e17b8ec?w=258&h=258&f=jpeg&s=27334" width=""/>
+<img src="http://pp8g2fyug.bkt.clouddn.com/weixingongzhonghao.jpg" width=""/>
 </p>
+
+
+
+## CSDN博客
+
+https://blog.csdn.net/qq_43270074
+
